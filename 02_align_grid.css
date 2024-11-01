@@ -8,8 +8,13 @@ body{
     /* row-gap: 10px;
     column-gap: 15px; */
     gap: 5px 25px;
-    justify-content: center;
-    align-content: space-between;
+    /* justify-content: center; */
+    /* align-content: space-between; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-content: center space-between;
+    place-items:center center ;
+
 
 }
 
