@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-auto-rows: 50PX;
+  grid-auto-columns: 50PX;
+  grid-auto-flow: column;
+}
+
+.item {
+  background: blue;
+  color: white;
+  font-weight: 700;
+  border: 1px solid red;
+  padding: 1rem;
+}
